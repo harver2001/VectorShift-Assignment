@@ -1,0 +1,42 @@
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .node-buttons button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .node-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .node {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: left;
+  }
+  
+  .TextNode, .InputNode, .OutputNode, .LLMNode, .CustomNode {
+    background-color: #f9f9f9;
+  }
+  
+  .handles {
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
+  }
+  
+  .handle {
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
